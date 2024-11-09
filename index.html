@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="title" content="Eschool">
+	<meta name="description" content="Site Description">
+	<meta name="keywords" content="blog">
+	<meta name="robots" content="index,follow">
+	<meta name="language" content="English">
+	<meta name="revisit-after" content="7 days">
+	<meta name="author" content="Sadia Islam Khan">
+	<title>JavaScript</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/media.css">
+</head>
+<body>
+  <div class="container">
+    <!-- exp1 -->
+    <h2>Click the button to show text</h2>
+    <button type="button" class="btn btn-dark" onclick="showTexts()">Show Text</button>
+    <p id="st"></p><hr>
+
+    <!-- exp2 -->
+    <h2>Click the button to Change text</h2>
+    <button type="button" class="btn btn-dark" onclick="changeText()">Change Text</button>
+    <p id="ct">Hello World</p><hr>
+
+    <!-- exp3 -->
+    <h2>Click the button to Display Time</h2>
+    <button type="button" class="btn btn-dark" onclick="displayDateTime()">Display Date Time</button>
+    <p id="ddt">Date:</p><hr>
+
+    <!-- exp4 -->
+    <h2>Click the button to on/off the  bulb</h2>
+    <button type="button" class="btn btn-dark" onclick="bulbOn()">On</button>
+    <button type="button" class="btn btn-dark" onclick="bulbOff()">Off</button>
+    <img id='bulb' src="images/bulb.gif" alt="bulb"><hr>
+
+    <!-- exp5 -->
+    <h2>Click the button to Change style</h2>
+    <button type="button" class="btn btn-dark" onclick="changeStyle()">Change Style</button>
+    <p id="cs">Hello World</p><hr>
+
+    <!-- exp6 -->
+    <h2>Click the button to show/hide text</h2>
+    <button type="button" class="btn btn-dark" onclick="showText()">Show Text</button>
+    <button type="button" class="btn btn-dark" onclick="hideText()">Hide Text</button>
+    <p id="sh"></p><hr>
+
+    <!-- exp7 -->
+    <h2>Click the button to Change fontsize</h2>
+    <button type="button" class="btn btn-dark" onclick="changeFont()">Change Style</button>
+    <p id="cf">Hello World</p><hr>  
+     
+    <!-- exp8 -->
+    <h2>Check the summation of 5 & 2</h2>
+    <button type="button" class="btn btn-dark" onclick="checkSum()">Check Sum</button>
+    <p id="chs"></p><hr> 
+
+    <!-- exp9 -->
+    <h2>Check the subtraction of 5 & 2</h2>
+    <button type="button" class="btn btn-dark" onclick="checkSub()">Check Sub</button>
+    <p id="chsb"></p><hr> 
+
+    <!-- exp10 -->
+    <h2>Check the multiplication of 5 & 2</h2>
+    <button type="button" class="btn btn-dark" onclick="checkMul()">Check Mul</button>
+    <p id="cm"></p><hr>
+
+    <!-- exp11 -->
+    <h2>Check the Division of 5 & 2</h2>
+    <button type="button" class="btn btn-dark" onclick="checkDiv()">Check Div</button>
+    <p id="cd"></p><hr>
+
+    <!-- exp12 -->
+    <h2>Check the Reminder of 5 & 2</h2>
+    <button type="button" class="btn btn-dark" onclick="checkRem()">Check Reminder</button>
+    <p id="cr"></p><hr>
+
+    <!-- exp13 -->
+    <h2>Click "Try it" to call a function with arguments</h2>
+    <button type="button" class="btn btn-dark" onclick="myFunction('Sadia','Student')">Try it</button>
+    <p id="pm"></p><hr>
+
+    <!-- exp14 -->
+    <h2>25 degree celcius to farenheight</h2>
+    <button type="button" class="btn btn-dark" onclick="convertDegree()">Conver c to f</button>
+    <p id="cdg"></p><hr> 
+
+    <!-- exp15 -->
+    <h2>77 degree farenheight to celcius</h2>
+    <button type="button" class="btn btn-dark" onclick="convertCel()">Conver f to c</button>
+    <p id="cdf"></p><hr> 
+
+    <!-- exp16 -->
+    <h2>Check the incremented value of 2</h2>
+    <button type="button" class="btn btn-dark" onclick="checkInc()">Check Increment</button>
+    <p id="ci"></p><hr>
+
+    <!-- exp17 -->
+    <h2>Check the decremented value of 2</h2>
+    <button type="button" class="btn btn-dark" onclick="checkDec()">Check Decrement</button>
+    <p id="cdec"></p><hr>
+    
+    <!-- exp18 -->
+    <h2>Find max of 0, 150, 30, 20, -8, -200</h2>
+    <button type="button" class="btn btn-dark" onclick="checkMax()">Check Maximum</button>
+    <p id="ma"></p><hr>
+
+    <!-- exp19 -->
+    <h2>Find min of 0, 150, 30, 20, -8, -200</h2>
+    <button type="button" class="btn btn-dark" onclick="checkMin()">Check Minimum</button>
+    <p id="mi"></p><hr>
+
+    <!-- exp20 -->
+    <h2>Check the absolute value of -4.7</h2>
+    <button type="button" class="btn btn-dark" onclick="checkAbs(-4.7)">Check Absolute</button>
+    <p id="ab"></p>
+
+  </div>
+  
+
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
